@@ -1,2 +1,2 @@
-An attempt to rewrite Equibop in Rust as much as possible, with the goal of measuring how performance and usability change when the underlying implementation moves away from JavaScript/TypeScript and toward a systems language.
-The core idea is to identify which parts of Equibop — plugin loading, patch application, IPC, asset handling, etc. — can be replaced or supplemented with Rust code (via WASM, native modules, or a full rewrite of non-UI logic), and to benchmark the results against the original.
+An attempt to rewrite Equibop in Rust as much as possible, with the goal of measuring how performance and usability change when the underlying implementation moves away from JavaScript/TypeScript.
+The core idea is to identify which parts of Equibop can be replaced or supplemented with Rust code (via WASM, native modules, or a full rewrite of non-UI logic), and to benchmark the results against the original.
